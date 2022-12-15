@@ -1,0 +1,42 @@
+.catagories-class{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+    flex-wrap: wrap;
+}
+
+.catagories-class .catagory{
+    width: 900px;
+    display: flex;
+    height:380px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    background-size: cover;
+    align-items: center;
+    border: solid black 2px;
+    overflow: hidden;
+    
+    color: white;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.5);
+    transition: all 0.2s;
+}
+.catagories-class .catagory:hover{
+    scale: 90%;
+    
+}
+
+.catagories-class :nth-child(-n+3){
+    width: 600px;
+
+    margin: 2px;
+    margin-top: 10px
+    
+
+}
